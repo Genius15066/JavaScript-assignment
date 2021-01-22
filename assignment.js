@@ -1,9 +1,9 @@
-//
+//https://github.com/Genius15066/JavaScript-assignment
 
 //Converting kilometer into meter using kilometerToMeter function
 function kilometerToMeter(kilometer)
 {
-    let meter;
+    var meter;
     if(kilometer>=0)
     {
         return meter=kilometer*1000;
@@ -17,7 +17,7 @@ function kilometerToMeter(kilometer)
  
 function budgetCalculator(watch,phone,laptop)
 {
-    let totalCost;
+    var totalCost;
     if(watch>=0 && phone>=0 && laptop>=0)
     {
         totalCost=(watch*50) + (phone*100) + (laptop*500);
@@ -30,7 +30,7 @@ function budgetCalculator(watch,phone,laptop)
 
 function hotelCost(days)
 {
-    let totalHotelCost;
+    var totalHotelCost;
 
     if(days>0)
     {
@@ -62,15 +62,24 @@ function hotelCost(days)
 
 function megaFriend(friendsArray)
 {
-   let largestName=friendsArray[0],i=1;
-   while(i<friendsArray.length)   //traversing the array using while loop
-   {
-       if(friendsArray[i].length> largestName.length)
-       {
-           largestName=friendsArray[i]; 
-           
-       }
-       i++;
-   }
-   return largestName;
+    if(friendsArray.length!=0)
+    {
+        var largestName=friendsArray[0],i=1;
+        while(i<friendsArray.length)   //traversing the array using while loop
+        {
+            if(friendsArray[i].length> largestName.length)
+            {
+                largestName=friendsArray[i]; 
+                
+            }
+            i++;
+        }
+        return largestName;
+    }
+    else{
+        return "You haven't put any name in the array";
+    }
+  
 }
+
+
