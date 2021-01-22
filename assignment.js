@@ -38,7 +38,7 @@ function hotelCost(days)
         {
             totalHotelCost=days*100;
         }
-        else if(days>10 && days<=20)
+        else if( days<=20)
         {
             totalHotelCost=(days*100)-(days-10)*20;
             
@@ -60,17 +60,17 @@ function hotelCost(days)
 
 //Find the largest name friend using megaFriend function
 
-function megaFriend(friendsArray)
+function megaFriend(friendsName)
 {
 
-    if(friendsArray.length!=0)
+    if(friendsName.length!=0)
     {
-        var largestName=friendsArray[0],i=1;
-        while(i<friendsArray.length)   //traversing the array using while loop
+        var largestName=friendsName[0],i=1;
+        while(i<friendsName.length)   //traversing the array using while loop
         {
-            if(friendsArray[i].length> largestName.length)
+            if(friendsName[i].length> largestName.length)
             {
-                largestName=friendsArray[i]; 
+                largestName=friendsName[i]; 
                 
             }
             i++;
@@ -82,6 +82,7 @@ function megaFriend(friendsArray)
     }
   
 }
+
 
 
 
