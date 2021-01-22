@@ -1,6 +1,6 @@
 //https://github.com/Genius15066/JavaScript-assignment
 
-//Converting kilometer into meter using kilometerToMeter function
+//Converting kilometer into meter 
 function kilometerToMeter(kilometer)
 {
     var meter;
@@ -13,7 +13,7 @@ function kilometerToMeter(kilometer)
     }
 }
 
-//Calculate the cost of your budget using budgetCalculator function
+//Calculate the cost of your budget
  
 function budgetCalculator(watch,phone,laptop)
 {
@@ -26,7 +26,7 @@ function budgetCalculator(watch,phone,laptop)
     return "No of items can't be negative";
 }
 
-//find the charge of hotel using hotelCost function
+//Calculate the bill of hotel 
 
 function hotelCost(days)
 {
@@ -58,7 +58,7 @@ function hotelCost(days)
     }
 }
 
-//Find the largest name friend using megaFriend function
+//Find the largest name  friend 
 
 function megaFriend(friendsName)
 {
@@ -82,6 +82,7 @@ function megaFriend(friendsName)
     }
   
 }
+
 
 
 
