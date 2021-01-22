@@ -62,6 +62,7 @@ function hotelCost(days)
 
 function megaFriend(friendsArray)
 {
+
     if(friendsArray.length!=0)
     {
         var largestName=friendsArray[0],i=1;
@@ -81,5 +82,7 @@ function megaFriend(friendsArray)
     }
   
 }
+
+
 
 
